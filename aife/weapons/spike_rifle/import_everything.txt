@@ -1,0 +1,35 @@
+tool bitmaps aife\weapons\spike_rifle\bitmaps
+tool bitmaps aife\weapons\spike_rifle\projectiles\spike_shard\bitmaps
+tool bitmaps aife\weapons\spike_rifle\ui\bitmaps
+
+tool bulk-import-model-folder aife\weapons\spike_rifle
+tool bulk-import-model-folder aife\weapons\spike_rifle\projectiles\spike_shard
+
+tool fp-model-animations aife\weapons\spike_rifle\fp_spike_rifle\fp_dervish aife\characters\dervish aife\weapons\spike_rifle\fp_spike_rifle uncompressed
+tool fp-model-animations aife\weapons\spike_rifle\fp_spike_rifle\fp_masterchief aife\characters\masterchief aife\weapons\spike_rifle\fp_spike_rifle uncompressed
+
+tool render aife\weapons\spike_rifle true
+tool render aife\weapons\spike_rifle\fp_spike_rifle true
+
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_dual_ready_left" weapon_ready opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_dual_ready_right" weapon_ready opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_dual_reload_full_left" weapon_reload opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_dual_reload_full_right" weapon_reload opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_melee" weapon_melee opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_posing_dual_var1\fp_spike_rifle_posing_dual_var1_left" weapon_idle opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_posing_dual_var1\fp_spike_rifle_posing_dual_var1_right" weapon_idle opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_posing_dual_var2\fp_spike_rifle_posing_dual_var2_left" weapon_idle opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_posing_dual_var2\fp_spike_rifle_posing_dual_var2_right" weapon_idle opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_posing_var1" weapon_idle opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_ready" weapon_ready opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\fp_spike_rifle\fp_spike_rifle_reload_full" weapon_reload opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_flyby" projectile_flyby opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_impacts" projectile_impact opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_impacts_dirt" projectile_impact opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_impacts_soft" projectile_impact opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_lod_far" weapon_fire_lod opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_rifle_ammo" weapon_reload opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_rifle_drops\spike_rifle_drop" object_impacts opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_rifle_drops\spike_rifle_drop_dirt" object_impacts opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_rifle_drops\spike_rifle_drop_soft" object_impacts opus
+tool sounds-single-layer "aife\weapons\spike_rifle\sounds\spike_rifle_fire" weapon_fire opus

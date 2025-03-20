@@ -1,0 +1,237 @@
+;### VERSION ###
+8210
+;	<8197-8210>
+
+;### NODES ###
+6
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;NODE 0
+frame gun
+-1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-0.0726236477	-0.0000000271	1.4003590345
+
+;NODE 1
+frame stock
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-9.5680532455	-0.0000000271	4.2592310905
+
+;NODE 2
+frame charging_handle
+0
+-0.2079117745	0.0000000000	0.0000000000	0.9781476259
+3.4620504379	-0.5912685394	4.4216194153
+
+;NODE 3
+frame magazine
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+3.1512033939	1.3173584938	3.7801375389
+
+;NODE 4
+frame gun_2
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-0.0726236477	-0.0000000271	1.4003590345
+
+;NODE 5
+frame stock_2
+4
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-9.5680532455	-0.0000000271	4.2592310905
+
+;### MATERIALS ###
+1
+;	<name>
+;	<material name>
+
+;MATERIAL 0
+hard_metal_thin_hum_weapon
+(1) Default Default
+
+;### MARKERS ###
+0
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### INSTANCE XREF PATHS ###
+0
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+0
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<node influences <index, weight>>
+;		<...>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+;		<...>
+
+;### TRIANGLES ###
+0
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;### SPHERES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### BOXES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+2
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;CONVEX 0
+physics
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-1.1273764372	0.0000000271	0.6996408701
+8
+-10.2500000000	-0.7500000000	-3.5000000000
+-10.2500000000	-0.7500000000	3.5000000000
+-10.2500000000	0.7500000000	-3.5000000000
+-10.2500000000	0.7500000000	3.5000000000
+10.2500000000	-0.7500000000	-3.5000000000
+10.2500000000	-0.7500000000	3.5000000000
+10.2500000000	0.7500000000	-3.5000000000
+10.2500000000	0.7500000000	3.5000000000
+
+;CONVEX 1
+physics.001
+4
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-1.1273764372	0.0000000271	0.6996408701
+8
+-10.2500000000	-0.7500000000	-3.5000000000
+-10.2500000000	-0.7500000000	3.5000000000
+-10.2500000000	0.7500000000	-3.5000000000
+-10.2500000000	0.7500000000	3.5000000000
+10.2500000000	-0.7500000000	-3.5000000000
+10.2500000000	-0.7500000000	3.5000000000
+10.2500000000	0.7500000000	-3.5000000000
+10.2500000000	0.7500000000	3.5000000000
+
+;### RAGDOLLS ###
+0
+;	<name>
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle>
+
+;### HINGES ###
+0
+;	<name>
+;	<chassis index>
+;	<wheel index>
+;	<chassis transform>
+;	<wheel transform>
+;	<suspension transform>
+;	<suspension min limit>
+;	<suspension max limit>
+;	<friction limit>
+;	<velocity>
+;	<gain>
+
+;### POINT TO POINT ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<constraint type>
+;	<x min limit>
+;	<x max limit>
+;	<y min limit>
+;	<y max limit>
+;	<z min limit>
+;	<z max limit>
+;	<spring length>
+
+;### PRISMATIC ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min limit>
+;	<max limit>
+
+;### BOUNDING SPHERE ###
+0
+;	<translation <x,y,z>>
+;	<radius>
+
